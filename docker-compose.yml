@@ -1,0 +1,6 @@
+version: "3.2"
+services:
+  node-red:
+    build: .
+    ports:
+      - 8881-8888:1880
